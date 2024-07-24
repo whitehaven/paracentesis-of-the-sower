@@ -4,15 +4,9 @@ channels:
   - defaults
 dependencies:
   - python
-  - pip
-  - scipy
   - numpy
   - statsmodels
   - matplotlib
-  - seaborn
-  - numba
-  - dask
-  - distributed
   - pandas
   - jupyterlab
   - pandoc
@@ -20,6 +14,5 @@ dependencies:
   - isort
   - openpyxl
   - jupyterlab-git
+  - jupyterlab-code-formatter
   - icecream
-  - pip:
-    - jupyterlab-code-formatter

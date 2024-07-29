@@ -3,16 +3,16 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - python
-  - numpy
-  - statsmodels
-  - matplotlib
-  - pandas
-  - jupyterlab
-  - pandoc
   - black
-  - isort
-  - openpyxl
-  - jupyterlab-git
-  - jupyterlab-code-formatter
   - icecream
+  - isort
+  - jupyterlab
+  - jupyterlab-git
+  - jupyterlab_code_formatter
+  - matplotlib
+  - numpy
+  - openpyxl
+  - pandas
+  - pandoc
+  - python
+  - statsmodels
